@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "cypress": "^11.2.0"
+    "cypress": "^11.2.0",
+    "cypress-iframe": "^1.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test_spec": "npx cypress run -s ./cypress/e2e/specs/assertionsdemo.cy.js -b chrome --headed",
+    "test_spec": "npx cypress run -s ./cypress/e2e/specs/assertionsdemo.cy.js -b chrome --headless",
     "cypress:browserstack": "browserstack-cypress run --sync --spec cypress/e2e/specs/assertionsdemo.cy.js"
   },
   "keywords": [],

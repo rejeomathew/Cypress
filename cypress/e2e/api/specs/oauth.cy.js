@@ -1,5 +1,3 @@
-///<reference types = 'Cypress'/>
-
 describe('OAUTH Verification Test', () => {
   let accessToken = '';
   let userid = '';

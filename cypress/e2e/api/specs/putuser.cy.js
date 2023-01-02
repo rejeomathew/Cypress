@@ -1,4 +1,3 @@
-/// <reference types = "cypress"/>
 const payloadJSON = require('../../../fixtures/createuser.json');
 
 describe('Update username using post API User ', () => {
